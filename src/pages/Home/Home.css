@@ -50,6 +50,10 @@ label[for=Custom]{
     margin-right: 0.3rem;
 }
 
+input[type='radio'] {
+    accent-color: blueviolet;
+}
+
 .randomWordsInput{
     color: #fff;
     background-color: blueviolet;

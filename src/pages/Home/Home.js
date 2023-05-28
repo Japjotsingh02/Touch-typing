@@ -103,7 +103,7 @@ const Home=()=> {
             InputGenerator(e);
             wordsInputRef.current.value = '';
         }
-    }
+    };
 
     // Generating words with combinations and repitition
     function InputGenerator(e){
@@ -126,7 +126,7 @@ const Home=()=> {
         
         if(e) setRandWords(WordAfterRepetition);
         else return WordAfterRepetition;
-    }
+    };
 
     return (
         <div className='main-wrapper'>
