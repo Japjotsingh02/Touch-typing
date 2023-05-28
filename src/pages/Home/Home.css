@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.main-wrapper{
+    background-color: #000000d9;
+    color: #fff;
+    font-family:'Lato',sans-serif;
+    padding: 16px;
+    display: flex;
+    height: -webkit-fill-available;
+    flex-direction: column;
+}
+
+.timer{
+    font-size: 1.5rem;
+    padding: 0px 15px 15px;
+}
+
+.type-header{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.words-generator-type{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputCard{
+    margin-bottom: 6px;
+}
+
+label[for=Custom]{
+    color: #FFCB30;
+    cursor: pointer;
+}
+
+.radioInput{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.radio{
+    margin-right: 0.3rem;
+}
+
+.randomWordsInput{
+    color: #fff;
+    background-color: blueviolet;
+    width: 70vw;
+    margin: 0 auto;
+    border: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    outline: 0;
+}
+
+.randomWordsInput::placeholder{
+    color: #000000d1;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    position: absolute;
+    top: 32%;
+    right: 32%;
+}
+
+.inputFlexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.columnLabel{
+    margin-bottom: 5px;
+}
+
+.generatorInput{
+    padding: 0.6rem;
+    width: 80px;
+    border: 0;
+    border-radius: 0.2rem;
+}
+
+.user-input{
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.2rem;
+    position: relative;
+}
+
+.user-input::placeholder{
+    font-size: 1rem;
+    vertical-align: middle;
+    position: absolute;
+    top: 36%;
+    right: 43%;
+}
+
+.threshold,.tasks-completed{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.tasks-completed{
+    margin-top: 1rem;
+}
+
+.threshold-values{
+    margin-right: 1rem;
+}
